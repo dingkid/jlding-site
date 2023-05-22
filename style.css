@@ -11,13 +11,14 @@ margin-bottom:0px;
 }
 
 h1{
-    font-size:52px;
+    font-size:56px;
     text-align:center;
     margin-top:20px;
 }
 
 h2{
     font-size:42px;
+    margin-bottom:10px;
 }
 
 h3{
@@ -29,48 +30,36 @@ h2, h3{
     color:#052046;
 }
 
-
 p{
     font-family:Lato;
-    word-wrap:break-word;
 }
 
-
-a:visited, a:link{
+.nav-link{
     font-family:lato;
+    font-size:24px;
+    color:#405765;
+    margin-right:15px;
+}
+
+.nav-link:hover{
+    background-color:#c5ccd9;
+}
+
+.sidebar-link:visited, .sidebar-link:link{
+    font-family:lato;
+    font-size:18px;
     text-decoration:none;
     color:#5F728D;
 }
 
-a:hover{
+.sidebar-link:hover{
     text-decoration:none;
     color:#2E4F7E;
 }
 
-li{
-    display:block;
-}
-
-li a{
-    display:block;
-    padding:10px 20px;
-    font-size:20px;
-}
-
-.navbar{
-    list-style-type:none;
-    margin:0;
-    margin-bottom:20px;
-    padding:0;
-    display:flex;
-}
-
-li a, .navbar-container{
-    background-color:#405765;
-}
-
-.navbar-list{
-    display:inline;
+.sidebar-list{
+    list-style:none;
+    padding-left:0;
 }
 
 .changelog-list{
@@ -80,16 +69,11 @@ li a, .navbar-container{
 .header-container{
     background-color:#5e7d90;
     color:white;
-    height:60px;
+    height:66px;
 }
 
-
-.sidebar-container{
-    display:inline-block;
-    width:250px;
-    vertical-align:top;
-    margin-top:10px;
-
+.bg-bar{
+    background-color:#dce3ee
 }
 
 .body-container{
@@ -102,4 +86,5 @@ li a, .navbar-container{
 
 footer{
     text-align:center;
+    background-color:#dce3ee;
 }
