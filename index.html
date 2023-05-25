@@ -19,9 +19,18 @@
 </head>
 
 <body>
+
+  <script>
+    function play() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+  </script>
+
   <!-- HEADER STUFF: MUST EXIST ON EVERY PAGE! -->
   <div class="header-container">
-      <h1>JAY DING.</h1>
+      <h1>JAY <span onclick="play()">DING.</span></h1>
+      <audio id="audio" src="tacobell.mp3"></audio>
   </div>    
 
   <nav class="navbar navbar-expand-sm bg-light" style="padding:0px;">
