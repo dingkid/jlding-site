@@ -87,3 +87,38 @@ report link: "https://drive.google.com/file/d/1kj786DU5PmD2c4GAPGabufNsMYei68R1/
     <li>i am continuing to list things</li>
     <li>isn't that cool?</li>
 </ul>
+
+
+FOR IF I EVER GET THE COLLAPSIBLE NAVBAR WORKING
+<div class="menu-bar">
+    
+    <div class="menu-container" onclick="menuIcon(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+  </div>
+
+  
+            <h3>MY BACKSTORY:</h3>
+              <p>I was born at a very young age in Philadelphia, Pennsylvania in 2004. At a slightly older age,
+                I was flown to Shanxi, China and raised by my grandparents and was brought back at the age of 3. At some point, my family moved
+                to Massachusetts, where I continued to be for the rest of my life up until now.</p>
+
+              <p>My earliest memories began in Ipswich, Massachusetts. That was where I learned how to read (for the first time) and speak
+                (for the second time). Most of my childhood was spent either at school, the piano bench, or by the ocean. Mostly the piano bench.
+                My family moved once again in 2016 to Boxford, Massachusetts, where I graduated from Masconomet Regional High School in 2022.
+              </p>
+
+              <p>I am currently a Sophomore at Northeastern University in Boston, Massachusetts, expecting to graduate in 2027. These days I like to spend my freetime 
+                seeing friends, walking around the city, drawing on my computer, clicking things on my computer, and listening to or playing music.
+                I like rhythm games, the color blue, noodles, and tea. I hate shellfish. </p>
+
+I was born in Pennsylvania, spent most of my infancy in Shanxi, China, and
+                the rest of my life in Massachusetts.</p>
+
+              <p>I graduated from Masconomet Regional High School in 2022. Currently, I am a Sophomore at Northeastern University 
+                in Boston, Massachusetts studying Mechanical Engineering and expect to graduate in 2027.</p>
+
+              <p>During my free time I like to make digital art and play the viola. I like rhythm games, travelling, the color blue,
+                noodles, tea, and music. I hate shellfish.

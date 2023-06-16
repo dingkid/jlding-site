@@ -3,23 +3,29 @@ body{
 }
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:766px) {
     /* start of phone styles */
         div.sidebar-main{
             display:none;
             
         }
-        a.nav-link{
-            margin-right:8px;
-        }
     }
-@media screen and (min-width:576px) {
-    /* start of phone styles */
+@media screen and (min-width:766px) {
         div.bottom-bar{
             display:none;
             
         }
+        
     }
+@media screen and (min-width:576px) {
+    div.menu-bar{
+        display:none;
+    }
+}
+
+@media screen and (max-width:574px) {
+   
+}
 
 #main {
     transition: margin-left .5s;
@@ -56,6 +62,35 @@ h2, h3{
 
 p{
     font-family:Lato;
+}
+
+.menu-bar{
+    height:40px;
+    background-color:#c5cfdf;
+}
+
+.menu-container{
+    padding-right:5px;
+    float:right;
+    cursor:pointer;
+}
+
+.bar1, .bar2, .bar3{
+    width: 35px;
+    height:5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1{
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3{
+    transform: translate(0,-11px) rotate(45deg);
 }
 
 .nav-link{
@@ -129,4 +164,16 @@ p{
 footer{
     text-align:center;
     background-color:#dce3ee;
+}
+
+.music-container{
+    display:inline-block;
+    background-color:#EDF2F9;
+    height:325px;
+    margin:10px;
+    padding:10px;
+}
+
+.music-title{
+    font-family:lato;
 }
