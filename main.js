@@ -16,7 +16,7 @@ customElements.define('my-header', MyHeader)
 class MyFooter extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
-        <p class="footer-text py-3">The Man knows you're here. <br> Last edited December 6 2024.</p>
+        <p class="footer-text py-3">The Man knows you're here. <br> Last edited 10 December 2024 by Jessica Ding.</p>
         `
     }
 }
@@ -36,16 +36,18 @@ class MySidebar extends HTMLElement {
         <h4>FIND ME:</h4>
             <ul>
             <li class="sidebar-list"><a class="sidebar-link" target="blank" href="https://osu.ppy.sh/users/18477206">osu!</a></li>
+            <li class="sidebar-list"><a class="sidebar-link" target="blank" href="https://monkeytype.com/profile/jiexi">monkeytype</a></li>
             </ul>
 
         <h4>A PHOTO OF MY CAT:</h4>
-        <img class="cat-image" src="maomi1.png" alt="turkish angora cat loafing on a rug">
+        <img class="cat-image" src="maomi1.png" title="isn't she cute?" alt="turkish angora cat loafing on a rug">
 
         <h4>OTHER COOL SITES:</h4>
             <ul>
                 <li class="sidebar-list"><a class="sidebar-link" target="blank" href="http://peter.molzer.net" title="My cute bf's website">nerd's room</a></li>
                 <li class="sidebar-list"><a class="sidebar-link" target="blank" href="http://trackthet.com" title="Train and Bus tracker">Track the T</a></li>
-                <li class="sidebar-list"><a target="blank" href="https://blog.elaboraet.net"><img src="elaboraet.png"></a></li>
+                <li class="sidebar-button"><a target="blank" href="https://blog.elaboraet.net"><img src="elaboraet.png" alt="elaboraet's website button: an 88x13 rectangle with a green frame that says "elaboraet" in the middle."></a></li>
+                <li class="sidebar-button"><a target="blank" href="http://peter.molzer.net"><img src="mobo.png" alt="nerd's room's website button: an 88x13 rectangle with a drawing of a red crewmate from Among Us surrounded by shooting stars in black space."></a></li>
             </ul>
         `
     }
@@ -59,7 +61,7 @@ class MyButtons extends HTMLElement {
         this.innerHTML = `
         <div class="row" content-align="center">
         <a href="blog.elaboraet.net">
-        <img src="elaboraet.png" alt="elaboraet's website button">
+        <img src="elaboraet.png" >
         </a>
         </div>
         `

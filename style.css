@@ -71,10 +71,19 @@ h6{
     padding:0;
 }
 
+.sidebar-button{
+    list-style-type:none;
+    margin-top:10px;
+}
+
 .sidebar-link{
     color:#5785b5;
     text-decoration:none;
     font-weight:bold;
+}
+
+.sidebar-link:hover{
+    color:#35a4f4;
 }
 
 .sidebar-mobile-container{
@@ -83,11 +92,20 @@ h6{
 }
 
 .cat-image{
-    width:100px;
-    margin:10px;
+    width:100%;
+    object-fit:contain;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 .footer-text{
     text-align:center;
     
+}
+
+.img-aboutme{
+    width:230px;
+    margin:10px;
+    float:right;
+    /*object-fit:contain;*/
 }
